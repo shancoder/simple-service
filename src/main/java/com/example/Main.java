@@ -37,6 +37,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
     	System.out.println("this is test git the second commit");
     	System.out.println("this is test master switch");
+    	System.out.println("this is test other pc switch shan");
         final HttpServer server = startServer();
         System.out.println(String.format("Jersey app started with WADL available at "
                 + "%sapplication.wadl\nHit enter to stop it...", BASE_URI));
